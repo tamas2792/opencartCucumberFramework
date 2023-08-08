@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Login Data Driven with Excel
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 11.274 s <<< FAILURE! - in Login Data Driven with Excel
+Login Data Driven with Excel.Login Data Driven Excel #1  Time elapsed: 4.923 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.Steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_row(Steps.java:171)
+	at ✽.Check User navigates to MyAccount Page by passing Email and Password with excel row "1"(file:///C:/Users/ITamas/IdeaProjects/opencart_cucumber_framework/./Features/LoginDDTExcel.feature:8)
+
+Login Data Driven with Excel.Login Data Driven Excel #2  Time elapsed: 3.307 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.Steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_row(Steps.java:171)
+	at ✽.Check User navigates to MyAccount Page by passing Email and Password with excel row "2"(file:///C:/Users/ITamas/IdeaProjects/opencart_cucumber_framework/./Features/LoginDDTExcel.feature:8)
+
+Login Data Driven with Excel.Login Data Driven Excel #3  Time elapsed: 3.043 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.Steps.check_user_navigates_to_my_account_page_by_passing_email_and_password_with_excel_row(Steps.java:171)
+	at ✽.Check User navigates to MyAccount Page by passing Email and Password with excel row "3"(file:///C:/Users/ITamas/IdeaProjects/opencart_cucumber_framework/./Features/LoginDDTExcel.feature:8)
+
